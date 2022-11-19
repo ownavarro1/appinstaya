@@ -96,7 +96,8 @@ function App() {
                     <div className="bg-white py-2 collapse-inner rounded">
                         <h6 className="collapse-header">Login Screens:</h6>
                         <a className="collapse-item" href="login.html">Login</a>
-                        <a className="collapse-item" href="register.html">Register</a>
+                        <Link to="/register" className="collapse-item" >Register
+                        </Link>
                         <a className="collapse-item" href="forgot-password.html">Forgot Password</a>
                         <div className="collapse-divider"></div>
                         <h6 className="collapse-header">Other Pages:</h6>
@@ -115,9 +116,9 @@ function App() {
 
             {/* <!-- Nav Item - Tables --> */}
             <li className="nav-item">
-                <a className="nav-link" href="tables.html">
+                <Link to="/listar" className="nav-link">
                     <i className="fas fa-fw fa-table"></i>
-                    <span>Tables</span></a>
+                    <span>Tables</span></Link>
             </li>
 
             {/* <!-- Divider --> */}
