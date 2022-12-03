@@ -1,5 +1,5 @@
 import React from 'react'
-
+import { Link} from "react-router-dom";
 export const Register = () => {
   return (
     <div class="container">
@@ -55,7 +55,7 @@ export const Register = () => {
                             <a class="small" href="forgot-password.html">Forgot Password?</a>
                         </div>
                         <div class="text-center">
-                            <a class="small" href="login.html">Already have an account? Login!</a>
+                            <Link to="/login" class="small">Already have an account? Login!</Link>
                         </div>
                     </div>
                 </div>
